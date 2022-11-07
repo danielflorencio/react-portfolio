@@ -20,7 +20,7 @@ export default function TechStackSection(){
             <TechStackItem src={nextIcon} title='Next JS' ownStyle={'next-js-icon'}/>
             <TechStackItem src={tsIcon} title='TypeScript' alt='Typescript icon'/>
             <TechStackItem src={nodeIcon} title='Node JS' alt='Typescript icon'/>
-            <TechStackItem src={expressIcon} title='ExpressJS' alt='Typescript icon'/> 
+            <TechStackItem src={expressIcon} title='ExpressJS' alt='Typescript icon' ownStyle={'next-js-icon'}/> 
             <TechStackItem src={mysqlIcon} title='MySQL' alt='MySQL Icon'/>
             <TechStackItem src={mongoIcon} title='MongoDB' alt='MongoDB Icon'/>
             </div>

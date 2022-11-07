@@ -65,6 +65,8 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 100px;
+  padding: 100px;
 }
 .minor-block{
   width: 150px;
@@ -94,4 +96,17 @@
   border: 3px solid white;
   border-radius: 100%;
   /* margin: 0%; */
+}
+.btn{
+  width: 100px;
+  height: 35px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+.btn:hover{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
 }
