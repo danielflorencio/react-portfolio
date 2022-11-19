@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 export default function TechStackItem({src, title, alt, ownStyle}){
     return(
         <div className={'minor-block'}>

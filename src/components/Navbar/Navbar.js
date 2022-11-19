@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 import Button from '../Button/Button'
 export default function NavBar(){
     return(

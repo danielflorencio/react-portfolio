@@ -1,3 +1,7 @@
+function ProjectStackItem(title, img){
+    
+}
+
 export default function ProjectItem(title){
  return(
     <section>
