@@ -6,8 +6,9 @@ export default function NavBar(){
             <nav className='navbar'>
                 <ul>
                     <li>Home</li>   
-                    <li>My Tech Stack</li>
-                    <li>Projects i made</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>+ Benefits</li>
                     <li>See Resume</li>
                     <Button cta='Contact me'/>
                     {/* Create a download icon for the "My resume" li later. */}

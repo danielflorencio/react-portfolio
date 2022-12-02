@@ -31,6 +31,11 @@ export default function ProjectItem(title){
                     
                     
                     <ProjectStackItem item='AWS'/>
+                    <ProjectStackItem item='D3'/>
+                </div>
+                <div className="Project-architecture ande Design Patterns">
+                    {/* Model View Controller (MVC) */} {/* Object Oriented Programming (OOP) */}
+                    {/* Functional Programming */}
                 </div>
             </div>
         </div>

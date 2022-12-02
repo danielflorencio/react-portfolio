@@ -1,0 +1,11 @@
+.tech-stack{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+.icon-sizer{
+  width: 70px;
+  height: 70px;
+}
