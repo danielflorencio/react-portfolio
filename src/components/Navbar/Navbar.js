@@ -1,4 +1,5 @@
 import '../../App.css'
+import './styles.css'
 import Button from '../Button/Button'
 export default function NavBar(){
     return(

@@ -7,7 +7,7 @@ function App() {
     <>
       <HeroSection/>
       <TechStackSection/>
-
+      <ProjectSection/>
 
 
       

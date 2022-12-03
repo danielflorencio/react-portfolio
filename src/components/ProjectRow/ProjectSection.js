@@ -1,8 +1,9 @@
+import './styles.css'
 import ProjectItem from "./ProjectItem";
 
 export default function ProjectSection(){
     return(
-        <section>
+        <section className="section background-color-black center-div">
 
             <ProjectItem title='Digital Agency Landing Page'/>
 

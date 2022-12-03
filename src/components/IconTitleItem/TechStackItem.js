@@ -1,4 +1,5 @@
 import '../../App.css'
+import './styles.css'
 import { IconContext } from 'react-icons'
 export default function TechStackItem({src, title, alt, ownStyle, img}){
     return(

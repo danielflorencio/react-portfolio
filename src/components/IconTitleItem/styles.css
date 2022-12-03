@@ -1,0 +1,30 @@
+.minor-block{
+    width: 150px;
+    height: 150px;
+    /* background-color: rgb(14, 14, 14); */
+    background-color: black;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+.minor-block > img{
+    transform: scale(0.7);
+    margin-bottom: 0px;
+}
+.minor-block > h3{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+.import-transform-scale{
+    transform: scale(0.2);
+}
+#next-js-icon{
+    transform: scale(0.58);
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 100%;
+}

@@ -16,7 +16,7 @@ import mongoIcon from '../../imgs/mongodb96-icon.png'
 import { SiRedux } from 'react-icons/si'
 export default function TechStackSection(){
     return(
-        <section className='section background-color-dark-grey'>
+        <section className='section background-color-black'>
 
             <div className='tech-stack inner-container'>
 
