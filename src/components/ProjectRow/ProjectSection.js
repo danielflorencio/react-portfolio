@@ -1,11 +1,15 @@
 import './styles.css'
 import ProjectItem from "./ProjectItem";
-
 export default function ProjectSection(){
     return(
         <section className="section background-color-black center-div">
 
-            <ProjectItem title='Digital Agency Landing Page'/>
+            <ProjectItem title='FIRE - Your Financial Independence Advisor' positionType='right-left' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Next Js', 'Bootstrap', 'Sass']}/>
+
+            {/* Tech Stack - HTML typescript react redux nextjs bootstrap sass */}
+            {/* This project may go to Vercel */}
+
+            <ProjectItem title='Digital Agency Landing Page' positionType='left-right' techStack={['Html', 'JavaScript', 'React']}/>
 
             {/* tech stack html javascript react */}
             {/* This project may initially go to Github pages */}
@@ -15,25 +19,21 @@ export default function ProjectSection(){
             {/* It would also make sense to use Next Js. */}
             {/* I can host it on AWS so i get experience with AWS. */}
 
-            <ProjectItem title='Fire advisor'/>
 
-            {/* Tech Stack - HTML typescript react redux nextjs bootstrap sass */}
-            {/* This project may go to Vercel */}
-
-            <ProjectItem title='Crypto Tracker'/>
+            {/* <ProjectItem title='Crypto Tracker' positionType='right-left' techStack={['Html', TypeScri]}/> */}
 
 
-            <ProjectItem title='Chatbot'/> 
+            {/* <ProjectItem title='Chatbot'/>   */}
 
             {/* This project may go to hostgator or firebase (firebase FREE) */}
 
             {/* Tech stack Html sass Typescript react redux nodejs express firebase */}
 
-            <ProjectItem title='This Portfolio'/>
+            <ProjectItem title='Portfolio Website' positionType='right-left' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Sass']}/>
 
             {/* tech stack html typescript react nextjs sass */}
 
-            <ProjectItem title='Real Estate Company Website'/>
+            {/* <ProjectItem title='Real Estate Company Website'/> */}
 
             {/* Netflix Clone */}            
             {/* Airbnb Clone */}
