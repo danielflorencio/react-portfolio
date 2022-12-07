@@ -1,5 +1,4 @@
 import { IconContext } from 'react-icons'
-// import '../generalStyles.css'
 import './styles.css'
 import SubTitle from '../Subtitle/Subtitle';
 import Title from '../Title/Title';
@@ -7,14 +6,14 @@ import {FaTicketAlt} from 'react-icons/fa';
 export default function IconsAndDescriptionSection(){
     return(
         <section className='section background-color-black'>
-            {/* <Title 
-            title='A well done marketing can bring you all these benefits.' 
-            color='white'/>
+            <Title 
+            title='Specialized knowledge is not enough to make a good worker.' 
+            color='white'/> 
 
             <SubTitle 
-            subtitle='Schedule a meeting now and find out how we can help you get them.' 
+            subtitle='See other benefits of working with me besides my tech skills.' 
             color='white' 
-            background_color='light-blue'/> */}
+            background_color='light-blue'/>
 
             <div class='blocks-container'>
 

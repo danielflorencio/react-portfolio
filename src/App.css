@@ -27,7 +27,7 @@
 }
 .inner-container{
   padding: 15vh 15vw;
-}
+} 
 .center-div{
   display: grid;
   place-items: center;
@@ -44,4 +44,8 @@
   border: 1px solid black;
   color: black;
   cursor: pointer;
+}
+.align-content-center{
+  display: grid;
+  place-items: center;
 }

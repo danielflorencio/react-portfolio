@@ -20,20 +20,30 @@ export default function ProjectSection(){
             {/* I can host it on AWS so i get experience with AWS. */}
 
 
-            {/* <ProjectItem title='Crypto Tracker' positionType='right-left' techStack={['Html', TypeScri]}/> */}
-
-
-            {/* <ProjectItem title='Chatbot'/>   */}
+            {/* <ProjectItem title='Chatbot'/>  This project must connect to the whatsapp api. Check devsamurai tutorial on my youtube playlist. */}
 
             {/* This project may go to hostgator or firebase (firebase FREE) */}
 
             {/* Tech stack Html sass Typescript react redux nodejs express firebase */}
+
+
+            {/* <ProjectItem title='Crypto Tracker' positionType='right-left' techStack={['Html', TypeScri]}/> - i don't think i wanna do that one anymore. */}
+
+
+
+
+
 
             <ProjectItem title='Portfolio Website' positionType='right-left' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Sass']}/>
 
             {/* tech stack html typescript react nextjs sass */}
 
             {/* <ProjectItem title='Real Estate Company Website'/> */}
+
+            {/* <ProjectItem title='E-commerce Website.'/> */}
+
+
+
 
             {/* Netflix Clone */}            
             {/* Airbnb Clone */}
