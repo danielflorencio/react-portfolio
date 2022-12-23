@@ -7,7 +7,7 @@ export default function HeroSection(){
       <NavBar/>
       <div className='hero-section-container'>        
           <h1 className='main-title'>Hi, i’m Daniel</h1>
-          <h2 className='main-title'>And your search for your company's newest Web Developer has just ended.</h2>
+          <h2 className='main-title'>And your search for a Web Developer has just ended.</h2>
           <h3>Scroll down to see my Tech Stack and some of my projects.</h3>
 
 

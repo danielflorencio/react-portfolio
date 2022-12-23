@@ -5,20 +5,32 @@ export default function ProjectSection(){
         <section className="section background-color-black center-div">
 
             <ProjectItem title='FIRE - Your Financial Independence Advisor' positionType='right-left' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Next Js', 'Bootstrap', 'Sass']}/>
-
             {/* Tech Stack - HTML typescript react redux nextjs bootstrap sass */}
             {/* This project may go to Vercel */}
 
             <ProjectItem title='Digital Agency Landing Page' positionType='left-right' techStack={['Html', 'JavaScript', 'React']}/>
+            {/* 
+            tech stack html javascript react MVP
+            Complete Project tech stack HTML typescript React sass 
+            */} 
+            {/* Deployment to github pages. */}
 
-            {/* tech stack html javascript react */}
-            {/* This project may initially go to Github pages */}
+            <ProjectItem title='Portfolio Website' positionType='right-left' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Sass']}/>
+            {/* Deployment to github pages. */}
 
-            {/* I can also apply it to Salus's actual page. */}
-            {/* In this case it would make sense to learn more about lazy loading and performance. */}
-            {/* It would also make sense to use Next Js. */}
-            {/* I can host it on AWS so i get experience with AWS. */}
+            {/* From here onwards i can start applying to jobs. */}
+            
+            {/* After i start applying to jobs i can also start learning more about fullstack web dev.*/}
 
+            <ProjectItem title='E-commerce Website.' positionType='left-right' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Sass', 'Node Js', 'Express Js', 'MongoDB']}/>
+
+            <ProjectItem title='Macros Manager App.' positionType='left-right' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Sass', 'Node Js', 'Express Js', 'PostgreSQL']}/>
+
+            {/* With these 2 above finished i can also learn about jest and other ui frameworks like material ui and tailwind css. */}
+
+            <ProjectItem title='Chat App.' positionType='right-left' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Sass', 'Node Js', 'Express Js', 'PostgreSQL']}/>
+
+            <ProjectItem title='' positionType='right-left' techStack={['','','']}/>
 
             {/* <ProjectItem title='Chatbot'/>  This project must connect to the whatsapp api. Check devsamurai tutorial on my youtube playlist. */}
 
@@ -30,17 +42,7 @@ export default function ProjectSection(){
             {/* <ProjectItem title='Crypto Tracker' positionType='right-left' techStack={['Html', TypeScri]}/> - i don't think i wanna do that one anymore. */}
 
 
-
-
-
-
-            <ProjectItem title='Portfolio Website' positionType='right-left' techStack={['Html', 'TypeScript', 'React', 'Redux', 'Sass']}/>
-
-            {/* tech stack html typescript react nextjs sass */}
-
             {/* <ProjectItem title='Real Estate Company Website'/> */}
-
-            {/* <ProjectItem title='E-commerce Website.'/> */}
 
 
 
@@ -49,7 +51,7 @@ export default function ProjectSection(){
             {/* Airbnb Clone */}
             {/* Instagram Clone */}
             {/* Pinterest Clone */}
-            
+                        
         </section>
     )
     
